@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+<body>
+
+<div class="header">
+    <h2>Simple, traffic-based pricing</h2>
+
+    <p>Sign-up for our 30-day trial. No credit card required.</p>
+</div>
+<div class="component">
+
+    <div class="cost">
+        <div><span id="pageview">100k </span> PAGEVIEWS</div>
+        <div>$<span id="cost">16</span>.00<span>/month</span></div>
+        <input type="range" name="slider" id="slider" step="25">
+    </div>
+    <div class="discount">
+        Monthly Billing
+        <label class="switch">
+            <input type="checkbox">
+            <span class="switcher"></span>
+        </label>
+        Yearly Billing
+        <span class="discount-text"> 25% <span class="discount-hide">discount</span> </span>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>Unlimited websites</li>
+            <li>100% data ownership</li>
+            <li>Email reports</li>
+        </ul>
+        <button type="submit">Start my trial</button>
+
+    </div>
+</div>
+
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#"> Yevhen Humen</a>.
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
+
+
